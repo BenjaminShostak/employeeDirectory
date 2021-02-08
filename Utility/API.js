@@ -5,17 +5,15 @@ import React, { Component } from "react";
   crossorigin="anonymous"></script>
 
 
-$.ajax({
-    url: 'https://randomuser.me/api/results=4000/exc=login/'
-    https://randomuser.me/api/?',
+  $.ajax({
+    url: 'https://randomuser.me/api/ results=4000/exc=login/',
     dataType: 'json',
     success: function(data) {
       console.log(data);
     }
   });
  
-  
-  
+//   openssl dgst -sha384 -binary FILENAME.js | openssl base64 -A
   https://randomuser.me/api/?exc=login
   
 //   TO SPECIFY WAYS OF SORTING THE API
