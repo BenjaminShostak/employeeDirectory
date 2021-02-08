@@ -18,7 +18,7 @@ ReactDOM.render(<App />, document.getElementById('root'));
 
 
 
-//Open the src/OmdbContainer.js and add the following code:
+
 
 
 //Add a componentDidMount method which should utilize the API.js module to query the OMDB API for the movie "The Matrix" 
