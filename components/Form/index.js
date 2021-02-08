@@ -5,7 +5,10 @@ class Form extends Component {
   // Setting the component's initial state
   state = {
     email: "",
-    employeeName: ""
+    employeeName: "",
+    search: "",
+    results: []
+
   };
 
   handleInputChange = event => {
